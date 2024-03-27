@@ -13,3 +13,14 @@ body {
     background-color: black;
     overflow: hidden;
 }
+<<<<<<< HEAD
+=======
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+>>>>>>> fecce6ab82f3f3c44709e25d303cac2dda06edef
