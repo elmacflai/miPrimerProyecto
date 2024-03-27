@@ -13,8 +13,6 @@ body {
     background-color: black;
     overflow: hidden;
 }
-<<<<<<< HEAD
-=======
 #video-bg {
     position: fixed;
     top: 0;
@@ -23,4 +21,8 @@ body {
     min-height: 100%;
     z-index: -1;
 }
->>>>>>> fecce6ab82f3f3c44709e25d303cac2dda06edef
+
+h1 {
+    font-family: "Truculenta", sans-serif;
+    
+}
