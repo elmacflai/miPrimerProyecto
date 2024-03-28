@@ -29,6 +29,9 @@ body {
     background-color: white;
     color: black;
     cursor: pointer;
+    position: fixed;
     justify-content: center;
     align-items: center;
+    z-index: +1;
+
 }
