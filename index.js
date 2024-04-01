@@ -1,13 +1,18 @@
-const button = document.getElementById("button");
+const button = document.querySelector(".button");
+let currentImageIndex = 1;
 
 button.addEventListener("click", function() {
     const imagesContainer = document.createElement("div");
+    const image = document.createElement("img");
 
-    for (let i = 1; <6; i++) {
-        const image = document.createElement("img");
-        image.src = image{i}.png;
-        imagesContainer.appendChild(image);
-}
+    image.src = `image${currentImageIndex}.png`;
+    imagesContainer.appendChild(image);
+    document.body.appendChild(imagesContainer);
 
-document.body.appendChild(imagesContainer);
+    currentImageIndex++;
+
+    if (currentImageIndex > 6) {
+        currentImageIndex = 1; 
+    }
 });
+
