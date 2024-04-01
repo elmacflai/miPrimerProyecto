@@ -5,7 +5,7 @@ button.addEventListener("click", function() {
 
     for (let i = 1; <6; i++) {
         const image = document.createElement("img");
-        image.src = image${i}.jpg;
+        image.src = image{i}.png;
         imagesContainer.appendChild(image);
 }
 
