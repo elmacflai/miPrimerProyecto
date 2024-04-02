@@ -14,14 +14,16 @@ body {
     background-color: black;
     overflow: hidden;
 }
-#video-bg {
+#video-bg{
     position: fixed;
     top: 0;
     left: 0;
     min-width: 100%;
     min-height: 100%;
+    overflow: hidden;
     z-index: -1;
 }
+
 .button {
     height: 30px;
     width: 100px;
@@ -30,7 +32,7 @@ body {
     color: black;
     cursor: pointer;
     position: fixed;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
